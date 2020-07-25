@@ -17,14 +17,18 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.Dsync.DsyncApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
-    
+    },
+    "android": {
+      "package": "com.Dsync.DsyncApp"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   },
-  "ios" : {
+  "ios": {
     "bundleIdentifier": "com.Dsync.DsyncApp"
   },
   "android": {
